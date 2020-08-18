@@ -1,0 +1,96 @@
+1) First Fit Fixed Partioning
+
+Process No.	Process Size	Block no.	Block Size	Memory Wasted
+   1		24654				2		29609		4955
+   2		20785				1		24079		3294
+   3		16231				3		17865		1634
+   4		29528		Not Allocated
+   5		22584				6		26254		3670
+   6		29230		Not Allocated
+   7		10870				4		21457		10587
+   8		3919				5		9459		5540
+   9		5922				7		20135		14213
+   10		32324		Not Allocated
+No of unallocated processes are : 3
+The memory wasted due to internal fragmentation is : 43893
+Time taken : 0.988 ms
+2) Best Fit Fixed Partioning
+
+Process No.	Process Size	Block no.	Block Size	Memory Wasted
+   1		24654				6		26254		1600
+   2		20785				4		21457		672
+   3		16231				9		16234		3
+   4		29528				2		29609		81
+   5		22584				1		24079		1495
+   6		29230		Not Allocated
+   7		10870				3		17865		6995
+   8		3919				5		9459		5540
+   9		5922				7		20135		14213
+   10		32324		Not Allocated
+No of unallocated processes are : 2
+Amount of memory wasted due to internal fragmentation is : 30599
+Time taken : 1.736 ms
+3) Worst Fit Fixed Partioning
+
+Process No.	Process Size	Block no.	Block Size	Memory Wasted
+   1		24654				2		29609		4955
+   2		20785				8		27600		6815
+   3		16231				6		26254		10023
+   4		29528		Not Allocated
+   5		22584				1		24079		1495
+   6		29230		Not Allocated
+   7		10870				4		21457		10587
+   8		3919				7		20135		16216
+   9		5922				3		17865		11943
+   10		32324		Not Allocated
+No of unallocated processes are : 3
+Amount of memory wasted due to internal fragmentation is : 62034
+Time taken : 0.806 ms
+1) First Fit Dynamic Partioning
+
+Process No.	Process Size	Block no.	Memory Wasted
+   1		24654				2		29609		1036
+   2		20785				1		24079		3294
+   3		16231				3		17865		1634
+   4		29528		Not Allocated
+   5		22584				6		26254		3670
+   6		29230		Not Allocated
+   7		10870				4		21457		4665
+   8		3919				2		29609		1036
+   9		5922				4		21457		4665
+   10		32324		Not Allocated
+No of unallocated processes are : 3
+The memory wasted due to external fragmentation is : 20000
+Time taken : 0.713 ms
+2) Best Fit Dynamic Partioning
+
+Process No.	Process Size	Block no.	Block Size	Memory Wasted
+   1		24654				6		26254		1600
+   2		20785				4		21457		672
+   3		16231				9		16234		3
+   4		29528				2		29609		81
+   5		22584				1		24079		1495
+   6		29230		Not Allocated
+   7		10870				3		17865		3076
+   8		3919				3		17865		3076
+   9		5922				5		9459		3537
+   10		32324		Not Allocated
+No of unallocated processes are : 2
+Amount of memory wasted due to external fragmentation is : 13540
+Time taken : 1.793 ms
+3) Worst Fit Dynamic Partioning
+
+Process No.	Process Size	Block no.	Block Size	Memory Wasted
+   1		24654				2		29609		4955
+   2		20785				8		27600		6815
+   3		16231				6		26254		10023
+   4		29528		Not Allocated
+   5		22584				1		24079		1495
+   6		29230		Not Allocated
+   7		10870				4		21457		10587
+   8		3919				7		20135		16216
+   9		5922				3		17865		11943
+   10		32324		Not Allocated
+No of unallocated processes are : 3
+Amount of memory wasted due to external fragmentation is : 62034
+Time taken : 0.692 ms
